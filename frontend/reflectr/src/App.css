@@ -1,0 +1,137 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.mood-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+
+.entries-title {
+  font-size: 24px;
+  margin-top: 40px;
+  color: #333;
+}
+
+.entries-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.entry-item {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.entry-date {
+  font-size: 16px;
+  color: #888;
+}
+
+.entry-rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.entry-thoughts {
+  font-size: 16px;
+  color: #333;
+}
+
+.entry-activities {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
